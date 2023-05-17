@@ -49,7 +49,7 @@ def Calculator():
      elif  operand == 6:
           return numOne ** numTwo
      elif operand == 7:
-          return numOne **0.5 and numTwo ** 0.5
+          return numOne **0.5 or numTwo ** 0.5
          
 
 if __name__ == "__main__":
